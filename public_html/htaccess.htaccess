@@ -1,0 +1,6 @@
+# Enable URL Rewriting
+RewriteEngine On
+# Rewrite rule to redirect requests to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]

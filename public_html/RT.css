@@ -1,0 +1,43 @@
+/* RT.css */
+body {
+    margin: 0;
+    font-family: 'MatrixRegular', monospace; /* Use a Matrix-style font if available */
+    background-color: #000; /* Black background */
+    color: #00ff00; /* Matrix green font color */
+    overflow: hidden; /* Hide overflow to prevent horizontal scrolling */
+}
+
+#birthdayContent {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#birthdayText {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#ventImage {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+}
+
+#flashingUnderscore {
+    display: inline-block;
+    width: 0;
+    animation: flash 0.7s infinite;
+}
+
+@keyframes flash {
+    50% {
+        opacity: 0;
+    }
+}
+
+

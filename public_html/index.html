@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE RISHABH EXPERIENCE</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif; /* Replace 'Roboto' with the desired font */
+            animation: rainbowBackground 10s linear infinite; /* Adjust the duration as needed */
+        }
+
+        @keyframes rainbowBackground {
+            0% {
+                background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+            }
+            100% {
+                background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            }
+        }
+
+
+        h1 {
+            text-align: center;
+            margin-top: 20px; /* Adjust the top margin as needed */
+            font-family: 'Arial', sans-serif; /* Replace 'YourDesiredFont' with the desired font */
+            font-size: 24px; /* Adjust the font size as needed */
+        }
+
+        audio {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .gallery li {
+            list-style: none;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .gallery img {
+            width: 200px; /* Adjust the width as needed */
+            height: 150px; /* Adjust the height as needed */
+            object-fit: cover; /* Maintain aspect ratio while covering the container */
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="text-container"> 
+        <h1>the rishabh X...perience</h1>
+        
+        <audio controls>
+            <source src="leaving_adulthood.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+
+        <div class="container">
+            <ul class="gallery">
+                <li>
+                    <a href="#StOP">
+                        <img src="Q.jpg" alt="Bali">
+                        <span>LIVING</span>
+                    </a>
+                    <div class="overlay" id="gambar-1">
+                        <a href="#" class="close">x close</a>
+                        <img src="W.jpg" alt="Bali">
+                    </div>
+                </li>
+                <li>
+                    <a href="#Clicking">
+                        <img src="E.jpg" alt="Bali">
+                        <span>LIKE</span>
+                    </a>
+                    <div class="overlay" id="gambar-2">
+                        <a href="#" class="close">x close</a>
+                        <img src="R.jpg" alt="Bali">
+                    </div>
+                </li>
+                <li>
+                    <a href="#These">
+                        <img src="rishabh (52).jpg" alt="spiderman-thumb">
+                        <span>A</span>
+                    </a>
+                    <div class="overlay" id="gambar-3">
+                        <a href="#" class="close">x close</a>
+                        <img src="Y.jpg" alt="spiderman">
+                    </div>
+                </li>
+                <li>
+                    <a href="#bro:cryingemoji:">
+                        <img src="U.jpg" alt="burjkhalifa-thumb">
+                        <em><span>MOVIE</span> </em>
+                    </a>
+                    <div class="overlay" id="gambar-4">
+                        <a href="#" class="close">x close</a>
+                        <img src="rishabh (14).jpg" alt="burjkhalifa">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
